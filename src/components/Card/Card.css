@@ -1,0 +1,106 @@
+.card_item {
+  width: 272px;
+  height: 262px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.card_header_ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  border: none;
+  height: 91px;
+}
+
+.card_header_programacao {
+  background-color: #57c278;
+}
+
+.card_header_frontend {
+  background-color: #82cffa;
+}
+
+.card_header_datascience {
+  background-color: #a6d157;
+}
+
+.card_header_devops {
+  background-color: #e06b69;
+}
+
+.card_header_uxdesing {
+  background-color: #db6ebf;
+}
+
+.card_header_mobile {
+  background-color: #ffba05;
+}
+
+.card_header_inovacao {
+  background-color: #ff8a29;
+}
+
+.card_item img {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.card_info {
+  margin-top: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p.card_title,
+.card_desc {
+  position: static;
+  z-index: 100;
+  text-align: center;
+}
+
+p.card_title {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: #6278f7;
+  margin: 18px 0 10px 0;
+  font-weight: 600;
+}
+
+.card_desc {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #212121;
+  margin-top: 0;
+  max-width: 200px;
+}

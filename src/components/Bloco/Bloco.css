@@ -1,0 +1,85 @@
+.bloco_ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.bloco_programacao {
+  margin: 80px 0 0 0;
+  background-color: rgba(0, 200, 111, 0.15);
+}
+
+.bloco_frontend {
+  background-color: rgba(130, 207, 250, 0.25);
+}
+
+.bloco_devops {
+  background-color: rgba(241, 97, 101, 0.15);
+}
+
+.bloco_datascience {
+  background-color: rgba(233, 255, 227, 1);
+}
+
+.bloco_uxdesing {
+  background-color: rgba(220, 110, 190, 0.15);
+}
+
+.bloco_mobile {
+  background-color: rgba(255, 186, 5, 0.15);
+}
+
+.bloco_inovacao {
+  background-color: rgba(255, 140, 42, 0.15);
+}
+
+.bloco_ h2 {
+  margin: 34px 96px 10px;
+}
+
+.rectangle_ {
+  width: 32px;
+  height: 4px;
+}
+
+.rectangle_programacao {
+  background-color: #57c278;
+}
+
+.rectangle_frontend {
+  background-color: #82cffa;
+}
+
+.rectangle_datascience {
+  background-color: #a6d157;
+}
+
+.rectangle_devops {
+  background-color: #e06b69;
+}
+
+.rectangle_uxdesing {
+  background-color: #db6ebf;
+}
+
+.rectangle_mobile {
+  background-color: #ffba05;
+}
+
+.rectangle_inovacao {
+  background-color: #ff8a29;
+}
+
+.bloco_cards_ {
+  margin-top: 38px;
+}
+
+.card_container {
+  margin: 0 auto 38px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}

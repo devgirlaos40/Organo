@@ -1,0 +1,16 @@
+.titulo {
+  margin: 0;
+  font-family: "Prata", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #6272f7;
+  text-align: center;
+  line-height: 72px;
+}
+
+.rectangle {
+  width: 64px;
+  height: 4px;
+  background-color: #6272f7;
+  margin: 14px auto 0;
+}
