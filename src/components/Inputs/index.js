@@ -1,15 +1,15 @@
 import "./Input.css";
-const Input = (labelName) => {
+const Input = (props) => {
   return (
     <div className="container_input">
       <label htmlFor="input" className="label_input">
-        {labelName.labelName}
+        {props.labelName}
       </label>
       <input
         type="text"
         id="input"
         className="input"
-        placeholder={`Digite seu ${labelName.labelName}...`}
+        placeholder={props.placeholder}
       />
     </div>
   );
