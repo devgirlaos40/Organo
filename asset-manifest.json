@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/devgirlaos40/Organo/static/css/main.89c559e4.css",
+    "main.js": "/devgirlaos40/Organo/static/js/main.b8e14f9c.js",
+    "index.html": "/devgirlaos40/Organo/index.html",
+    "main.89c559e4.css.map": "/devgirlaos40/Organo/static/css/main.89c559e4.css.map",
+    "main.b8e14f9c.js.map": "/devgirlaos40/Organo/static/js/main.b8e14f9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89c559e4.css",
+    "static/js/main.b8e14f9c.js"
+  ]
+}
